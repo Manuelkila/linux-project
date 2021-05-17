@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ii@y5$zy&)1rfwp)qn)=muh#dk+_3^%+&l*8m_v(gg^1sz&%q+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['3.142.121.244']
+ALLOWED_HOSTS = ['3.142.121.244', '127.0.0.1']
 
 
 # Application definition
@@ -40,7 +40,6 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
